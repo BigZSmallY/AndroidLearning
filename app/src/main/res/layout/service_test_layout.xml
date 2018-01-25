@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动Activity的时候同时启动Service，service开启线程，通过广播更新Activity中的文本。"/>
+
+    <TextView
+        android:id="@+id/helloWorld"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HelloWorld"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/stop_service_button"
+        android:text="Stop The Service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidLearning</string>
+    <string name="hello_world">HelloWorld</string>
+    <string name="action_settings">action_settings</string>
+
+
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+
+
+    <string name="judgeState">异常运动状态监测</string>
+    <string name="squatTimes">统计下蹲次数</string>
+    <string name="stepTimes">统计行走的步数</string>
+    <string name="developing">开发中，请等待 。。。</string>
+    <string name="x_axis">X轴加速度：</string>
+    <string name="y_axis">Y轴加速度：</string>
+    <string name="z_axis">Z轴加速度：</string>
+    <string name="stand">静止状态</string>
+    <string name="run">运动状态</string>
+    <string name="fast">异常运动！</string>
+    <string name="continueListen">继续</string>
+    <string name="backTip">提示</string>
+    <string name="warn">警告</string>
+    <string name="exceptionMovement">有异常动作！</string>
+    <string name="savaData">是否保存加速度数据？</string>
+    <string name="writting">正在写入数据!</string>
+    <string name="loading">loading</string>
+    <string name="initial">系统初始化，获取加速度采样频率中...</string>
+    <string name="positive">是</string>
+    <string name="negative">否</string>
+    <string name="rule">       	 	请进行蹲下和起立动作，每做完整的一次动作，将计数一次。
+</string>
+    <string name="begin">开始计数</string>
+    <string name="pause">暂停计数</string>
+    <string name="end">计数清零</string>
+    <string name="zero">0</string>
+    <string name="times">次</string>
+    <string name="squatStateText">状态：</string>
+    <string name="squat">下蹲</string>
+    <string name="standup">起立</string>
+    <string name="squaTips">当前下蹲的次数为：</string>
+    <string name="walkText">        	该功能统计行走的步数，太快加速度趋于匀速，太慢加速度变化太小，容易出现误判，请正常行走。
+</string>
+    <string name="walkSteps">步</string>
+    <string name="walk">行走</string>
+    <string name="heatConsumption">热量消耗:</string>
+    <string name="qianka">千卡</string>
+    <string name="walkTips">当前行走的步数为：</string>
+</resources>
