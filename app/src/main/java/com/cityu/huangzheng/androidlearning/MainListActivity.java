@@ -69,6 +69,8 @@ public class MainListActivity extends Activity
                     case 8:
                         intent = new Intent(MainListActivity.this, PedometerActivity.class);
                         break;
+                    case 9:
+                        intent = new Intent(MainListActivity.this, AnimatorActivity.class);
                     default:
                         Toast.makeText(mContext, "Developing", Toast.LENGTH_SHORT).show();
                         break;
@@ -90,6 +92,7 @@ public class MainListActivity extends Activity
         list.add("7.OpenGL SurfaceView");
         list.add("8.Service&BroadCast");
         list.add("9.Pedometer");
+        list.add("10.Animator");
         return list;
     }
 

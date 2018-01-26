@@ -31,6 +31,7 @@
         <activity android:name=".ServiceTestActivity"/>
         <activity android:name=".PedometerActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".AnimatorActivity"/>
 
         <!-- Service -->
         <service android:name=".service.ServiceTestUpdateUiService"/>
